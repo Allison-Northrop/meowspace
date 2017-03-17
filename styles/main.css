@@ -4,7 +4,7 @@ header {
   bottom: 0%;
   width: 100%;
   height: 12%;
-  background-color: #A4B5CF;
+  background-color: #A5DBDA;
   z-index: 150
 }
 
@@ -23,6 +23,7 @@ header h2 {
 header ul {
   float: right;
   margin-right: 1%;
+  list-style-type: none;
   /*clear: both;*/
   /*position: fixed*/
 }
@@ -55,7 +56,13 @@ h1 {
   /*position: relative;*/
   display: inline-block;
   background-image: url("/Users/allisonnorthrop/ada/05_week/meowspace/assets/hero.jpg");
-  background-size: cover;
+  background-size: 100% auto;
+  background-position: center;
+  /*-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);*/
   top: 0%;
   bottom: 0%;
   width: 100%;
@@ -67,10 +74,18 @@ h1 {
   text-align: center
 }
 
+#top_articles > * {
+  vertical-align: top;
+}
+
 #left_article {
   display: inline-block;
-  width: 33%;
+  width: 25%;
   height: 300px;
+  margin-left: 7%;
+  /*border: 2px;
+  border-style: solid;
+  border-color: black;*/
   /*float: left;*/
 }
 
@@ -80,20 +95,28 @@ h3 {
 
 #middle_article {
   display: inline-block;
-  width: 33%;
+  width: 25%;
   height: 300px;
+  margin-left: 5%;
+  margin-right: 5%;
+  /*border: 2px;
+  border-style: solid;
+  border-color: black;*/
   /*text-align: center;*/
 }
 
 #right_article {
   display: inline-block;
-  width: 33%;
+  width: 25%;
   height: 300px;
+  /*border: 2px;
+  border-style: solid;
+  border-color: black;*/
   /*float: right;*/
 }
 
- a:hover {
-  border: 5px black;
+#top_articles {
+  align-items: center;
 }
 
 /*.hero {
