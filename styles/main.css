@@ -11,6 +11,11 @@ header {
 
 a:link {color: slategray;}
 
+a:link:hover {
+  background-color; white
+  color: teal;
+}
+
 header h2 {
   font-family: 'Amatic SC', cursive;
   color: white;
@@ -162,6 +167,8 @@ h3 {
 #join p {
   width: 40%;
   display: inline-block;
+  background-color: #72DAE8;
+  opacity: 0.6;
 }
 
 #everybody_cat {
@@ -180,5 +187,5 @@ h3 {
   font-size: 90px !important;
   /*margin-bottom: 0%;*/
   text-align: center;
-  color: white; 
+  color: white;
 }
